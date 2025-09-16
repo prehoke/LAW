@@ -146,7 +146,7 @@ data = dict(
         box_type_3d='LiDAR',
         custom_eval_version='vad_nusc_detection_cvpr_2019'),
     val=dict(type=dataset_type,
-             data_root=data_root, 
+             data_root=data_root,
              queue_length=queue_length,
              pc_range=point_cloud_range,
              interval_2frames=True,
